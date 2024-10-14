@@ -29,7 +29,7 @@ if st.button("Click me"):
 
 import pandas as pd
 
-data = pd.read_csv("/water_potability.csv")
+data = pd.read_csv("water_potability.csv")
 df = pd.DataFrame(data)
 
 #Display the DataFrame
